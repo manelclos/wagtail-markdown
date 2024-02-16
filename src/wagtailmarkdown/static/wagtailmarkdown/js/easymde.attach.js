@@ -22,7 +22,8 @@ function easymdeAttach(id, autoDownloadFontAwesome) {
     Object.assign(window.wagtailMarkdown.options, {
         element: document.getElementById(id),
         autofocus: false,
-        autoDownloadFontAwesome: autoDownloadFontAwesome,
+        autoDownloadFontAwesome: false,
+        spellChecker: false,
     })
     var mde = new EasyMDE(window.wagtailMarkdown.options);
     mde.render();
