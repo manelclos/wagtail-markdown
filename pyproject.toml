@@ -29,7 +29,7 @@ dependencies = [
     "Wagtail>=4.1",
     "Markdown>=3.3,<4",
     # note: bleach5 requires bleach[css]. Will make one of the next versions require >= 5
-    "bleach>=3.3,<5",
+    "bleach>=3.3,<6",
 ]
 
 [project.optional-dependencies]
